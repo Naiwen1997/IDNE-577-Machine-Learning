@@ -31,22 +31,12 @@ Topics List:
 
 - [Exploratory Data Analysis]
 - [Supervised Learning](https://github.com/Madison-Bunting/INDE-577/tree/main/supervised%20learning)
-  - [Linear Regression](https://github.com/Madison-Bunting/INDE-577/tree/main/supervised%20learning/0%20-%20linear%20regression)
-  - [Gradient Descent](https://github.com/Madison-Bunting/INDE-577/tree/main/supervised%20learning/1%20-%20gradient%20descent)
-  - [Logistic Regression](https://github.com/Madison-Bunting/INDE-577/tree/main/supervised%20learning/2%20-%20logistic%20regression)
-  - [Perceptron](https://github.com/Madison-Bunting/INDE-577/tree/main/supervised%20learning/3%20-%20perceptron)
-  - [Neural Networks](https://github.com/Madison-Bunting/INDE-577/tree/main/supervised%20learning/4%20-%20neural%20networks)
-  - [K Nearest Neighbors](https://github.com/Madison-Bunting/INDE-577/tree/main/supervised%20learning/5%20-%20K%20nearest%20neighbors)
-  - [Naive Bayes Classifier](https://github.com/Madison-Bunting/INDE-577/blob/main/supervised%20learning/6%20-%20naive%20bayes%20classifier/README.md)
-    - Model Building and Error Analysis
-    - Linear Regression
-    - Gradient Descent
-    - Logistic Regression
-    - Neural Nets
-    - Support Vector Machines
-    - k-Nearest Neighbors
-    - Decision/ Regression Trees
-    - Ensemble Learning
+  - [Parametric Modeling]()
+    -[Perceptron]()
+    -[Gradient Descent]()
+    -[Single Neuron Linear Regression]()
+    -[Logistic Regression]()
+    -[Deep Neural Network]()
 
 - **Unsupervised Learning**:
     - k-Means Clustering
