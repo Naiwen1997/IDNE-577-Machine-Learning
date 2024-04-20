@@ -1,4 +1,4 @@
-![image](Machine_Learning.jpg)
+![image](Images\Machine_Learning.jpg)
 
 # INDE 577 — Data Science and Machine Learning
 
@@ -39,10 +39,6 @@ Topics List:
         - [Decision and Regression Tree](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/tree/master/Supervised%20Learning/Nonparametric%20Modeling/Lecture%202%20Decision%20and%20Regression%20Tree)
         - [Ensemble Method](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/tree/master/Supervised%20Learning/Nonparametric%20Modeling/Lecture%203%20Ensemble%20Method)
 - **Unsupervised Learning**:
-    -[K-Means Clustering](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/tree/master/Unsupervised%20Learning/Lecture%201%20K-Means%20Clustering)
-    -[Principle Component Analysis](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/tree/master/Unsupervised%20Learning/Lecture%202%20Principle%20Component%20Analysis)
-    -[DBSCAN](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/tree/master/Unsupervised%20Learning/Lecture%203%20DBSCAN)
-
-- **Unsupervised Learning**:
-    - k-Means Clustering
-    - Principle Component Analysis
+    - [K-Means Clustering](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/tree/master/Unsupervised%20Learning/Lecture%201%20K-Means%20Clustering)
+    - [Principle Component Analysis](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/tree/master/Unsupervised%20Learning/Lecture%202%20Principle%20Component%20Analysis)
+    - [DBSCAN](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/tree/master/Unsupervised%20Learning/Lecture%203%20DBSCAN)
