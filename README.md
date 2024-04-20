@@ -1,4 +1,4 @@
-![image](Images\Machine_Learning.jpg)
+![image](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/blob/master/Images/Machine_Learning.jpg)
 
 # INDE 577 — Data Science and Machine Learning
 
