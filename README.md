@@ -30,10 +30,10 @@ Topics List:
 - **Supervised Learning**:
 
 - [Exploratory Data Analysis]
-- [Supervised Learning](https://github.com/Madison-Bunting/INDE-577/tree/main/supervised%20learning)
-  - [Parametric Modeling]()
-    -[Perceptron]()
-    -[Gradient Descent]()
+- [Supervised Learning](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/tree/master/Supervised%20Learning)
+  - [Parametric Modeling](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/tree/master/Supervised%20Learning/Parametric%20Modeling)
+    -[Perceptron](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/tree/master/Supervised%20Learning/Parametric%20Modeling/Lecture%201%20Perceptron)
+    -[Gradient Descent](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/tree/master/Supervised%20Learning/Parametric%20Modeling/Lecture%202%20Gradient%20Descent)
     -[Single Neuron Linear Regression]()
     -[Logistic Regression]()
     -[Deep Neural Network]()
