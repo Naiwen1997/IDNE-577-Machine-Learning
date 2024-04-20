@@ -31,17 +31,17 @@ Topics List:
     - Parametric Modeling
         - [Perceptron](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/tree/master/Supervised%20Learning/Parametric%20Modeling/Lecture%201%20Perceptron)
         - [Gradient Descent](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/tree/master/Supervised%20Learning/Parametric%20Modeling/Lecture%202%20Gradient%20Descent)
-        - [Single Neuron Linear Regression]()
-        - [Logistic Regression]()
-        - [Deep Neural Network]()
+        - [Single Neuron Linear Regression](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/tree/master/Supervised%20Learning/Parametric%20Modeling/Lecture%203%20Single%20Neuron%20Linear%20Regression)
+        - [Logistic Regression](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/tree/master/Supervised%20Learning/Parametric%20Modeling/Lecture%204%20Logistic%20Regression)
+        - [Deep Neural Network](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/tree/master/Supervised%20Learning/Parametric%20Modeling/Lecture%205%20Deep%20Neural%20Network)
     - Nonparametric Modeling
-        -[KNN Algorithm]()
-        -[Decision and Regression Tree]()
-        -[Ensemble Method]()
+        - [KNN Algorithm](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/tree/master/Supervised%20Learning/Nonparametric%20Modeling/Lecture%201%20KNN%20Algorithm)
+        - [Decision and Regression Tree](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/tree/master/Supervised%20Learning/Nonparametric%20Modeling/Lecture%202%20Decision%20and%20Regression%20Tree)
+        - [Ensemble Method](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/tree/master/Supervised%20Learning/Nonparametric%20Modeling/Lecture%203%20Ensemble%20Method)
 - **Unsupervised Learning**:
-    -[K-Means Clustering]()
-    -[Principle Component Analysis]()
-    -[DBSCAN]()
+    -[K-Means Clustering](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/tree/master/Unsupervised%20Learning/Lecture%201%20K-Means%20Clustering)
+    -[Principle Component Analysis](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/tree/master/Unsupervised%20Learning/Lecture%202%20Principle%20Component%20Analysis)
+    -[DBSCAN](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/tree/master/Unsupervised%20Learning/Lecture%203%20DBSCAN)
 
 - **Unsupervised Learning**:
     - k-Means Clustering
