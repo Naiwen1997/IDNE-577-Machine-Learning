@@ -28,12 +28,20 @@ Topics List:
     - Data Visualization
 
 - **Supervised Learning**:
-    - [Parametric Modeling]
+    - Parametric Modeling
         - [Perceptron](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/tree/master/Supervised%20Learning/Parametric%20Modeling/Lecture%201%20Perceptron)
         - [Gradient Descent](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/tree/master/Supervised%20Learning/Parametric%20Modeling/Lecture%202%20Gradient%20Descent)
         - [Single Neuron Linear Regression]()
         - [Logistic Regression]()
         - [Deep Neural Network]()
+    - Nonparametric Modeling
+        -[KNN Algorithm]()
+        -[Decision and Regression Tree]()
+        -[Ensemble Method]()
+- **Unsupervised Learning**:
+    -[K-Means Clustering]()
+    -[Principle Component Analysis]()
+    -[DBSCAN]()
 
 - **Unsupervised Learning**:
     - k-Means Clustering
