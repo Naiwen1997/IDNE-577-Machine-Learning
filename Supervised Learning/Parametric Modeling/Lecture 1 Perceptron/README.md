@@ -5,7 +5,7 @@
 Welcome to the Perceptron repository! This project is dedicated to the implementation and exploration of the Perceptron, one of the simplest types of artificial neural networks and a foundational element in the field of machine learning.
 
 ## Overview
-The Perceptron is a type of supervised learning algorithm developed by Frank Rosenblatt in 1957. It is primarily used as a binary classifier, which means it can categorize new inputs into one of two classes. The Perceptron makes its classifications based on a linear predictor function combining a set of weights with the feature vector.
+The [Perceptron](https://www.w3schools.com/ai/ai_perceptrons.asp) is a type of supervised learning algorithm developed by Frank Rosenblatt in 1957. It is primarily used as a binary classifier, which means it can categorize new inputs into one of two classes. The Perceptron makes its classifications based on a linear predictor function combining a set of weights with the feature vector.
 
 ## How It Works
 
@@ -20,7 +20,7 @@ where:
 - $x_1$, $x_2$, $\ldots$, $x_n$ are the input features
 - $w_1$, $w_2$, $\ldots$, $w_n$ are the corresponding weights for each input feature
 - $b$ is the bias weight
-- $φ$ is the step function: The step function is the activation function which returns 1 if the weighted sum of the inputs and bias is greater than or equal to 0, and 0 otherwise. In other words, the perceptron outputs a 1 if the input falls on one side of the decision boundary and a 0 if it falls on the other side. We can aslo use other functions such as Sign function() or Sigmoid() function as the acitvation function.
+- $φ$ is the step function: The step function is the activation function which returns 1 if the weighted sum of the inputs and bias is greater than or equal to 0, and 0 otherwise. In other words, the perceptron outputs a 1 if the input falls on one side of the decision boundary and a 0 if it falls on the other side. We can aslo use other functions such as [sign function](https://en.wikipedia.org/wiki/Sign_function) or [Sigmoid function](https://en.wikipedia.org/wiki/Sigmoid_function) as the acitvation function.
 
 ### Weight Update
 The perceptron learns by adjusting the weights based on the error between the predicted output and the true output. The weights are updated using the following formula:
