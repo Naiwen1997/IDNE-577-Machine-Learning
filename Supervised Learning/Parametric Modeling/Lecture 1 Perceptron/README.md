@@ -14,6 +14,7 @@ To prepare data, we must first determine the two output groups and classify data
 
 ### Prediction of Results
 ![image](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/blob/master/Images/step_function.png)
+
 The Perceptron model functions on the basic principle of a linear equation:
 $$Z=φ(w_1x_1+w_2x_2+\ldots + w_nx_n+b)$$
 where:
