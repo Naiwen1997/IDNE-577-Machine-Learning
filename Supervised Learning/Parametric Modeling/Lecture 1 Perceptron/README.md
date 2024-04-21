@@ -9,17 +9,20 @@ The Perceptron is a type of supervised learning algorithm developed by Frank Ros
 
 ## How It Works
 
+### Data Processing
+To prepare data, we must first determine the two output groups and classify data in numerical terms, at which point the data will be in a format that will allow the perceptron to be trained. For the input features, we also need to normalize their values to make sure they are in the same scale 0 to 1.
+
 ### Prediction of Results
 The Perceptron model functions on the basic principle of a linear equation:
 $$
-Z = \text{step}(w_1x_1+w_2x_2+\ldots + w_nx_n+b)
+Z = φ(w_1x_1+w_2x_2+\ldots + w_nx_n+b)
 $$
 where:
 
 - $x_1$, $x_2$, $\ldots$, $x_n$ are the input features
 - $w_1$, $w_2$, $\ldots$, $w_n$ are the corresponding weights for each input feature
 - $b$ is the bias weight
-- $\text{step}$ is the step function: The step function is the activation function which returns 1 if the weighted sum of the inputs and bias is greater than or equal to 0, and 0 otherwise. In other words, the perceptron outputs a 1 if the input falls on one side of the decision boundary and a 0 if it falls on the other side.
+- $φ$ is the step function: The step function is the activation function which returns 1 if the weighted sum of the inputs and bias is greater than or equal to 0, and 0 otherwise. In other words, the perceptron outputs a 1 if the input falls on one side of the decision boundary and a 0 if it falls on the other side. We can aslo use other functions such as Sign function() or Sigmoid() function as the acitvation function.
 
 ### Weight Update
 The perceptron learns by adjusting the weights based on the error between the predicted output and the true output. The weights are updated using the following formula:
@@ -35,7 +38,7 @@ where:
 - $x_i$ is the value of the current input feature being considered for weight update
 
 ## Applications
-- Perceptrons are useful in fields such as:
+Perceptrons are useful in fields such as:
 - Optical character recognition
 - Speech recognition
 - Decision-making processes
