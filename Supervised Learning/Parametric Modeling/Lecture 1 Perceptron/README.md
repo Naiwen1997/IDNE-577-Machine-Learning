@@ -13,6 +13,7 @@ The [Perceptron](https://www.w3schools.com/ai/ai_perceptrons.asp) is a type of s
 To prepare data, we must first determine the two output groups and classify data in numerical terms, at which point the data will be in a format that will allow the perceptron to be trained. For the input features, we also need to normalize their values to make sure they are in the same scale 0 to 1.
 
 ### Prediction of Results
+![image](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/blob/master/Images/step_function.png)
 The Perceptron model functions on the basic principle of a linear equation:
 $$Z=φ(w_1x_1+w_2x_2+\ldots + w_nx_n+b)$$
 where:
@@ -42,3 +43,4 @@ Perceptrons are useful in fields such as:
 - Decision-making processes
 
 ## Dataset
+We use the dataset 
