@@ -44,4 +44,4 @@ Perceptrons are useful in fields such as:
 - Decision-making processes
 
 ## Dataset
-We use the [Rice (Cammeo and Osmancik dataset)](https://archive.ics.uci.edu/dataset/545/rice+cammeo+and+osmancik), which includes a total of 3810 rice grain's images were taken for the two species, processed and feature inferences were made. 7 morphological features were obtained for each grain of rice.
+We use the [Rice (Cammeo and Osmancik)](https://archive.ics.uci.edu/dataset/545/rice+cammeo+and+osmancik) dataset, which includes a total of 3810 rice grain's images were taken for the two species, processed and feature inferences were made. 7 morphological features were obtained for each grain of rice.
