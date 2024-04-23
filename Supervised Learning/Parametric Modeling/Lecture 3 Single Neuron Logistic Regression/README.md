@@ -15,7 +15,7 @@ Logistic Regression is a fundamental statistical and machine learning technique 
 </p>
 The sigmoid function, denoted as \(\sigma(z)\), is crucial for logistic regression as it maps any real-valued number into the (0, 1) range, which can be interpreted as a probability:
 
-$ \sigma(z) = \frac{1}{1 + e^{-z}} $
+$$\sigma(z) = \frac{1}{1 + e^{-z}}$$
 
 This function is smooth and differentiable, which makes it suitable for gradient-based optimization methods.
 
