@@ -22,16 +22,16 @@ This function is smooth and differentiable, which makes it suitable for gradient
 ### Binary Cross Entropy Loss
 The loss function used in logistic regression is the Binary Cross Entropy Loss, which measures the "distance" between the model's predicted probabilities and the actual class outputs (0 or 1):
 
-\[ L(\mathbf{w}, b) = -\frac{1}{N} \sum_{i=1}^{N} \Big[y^{(i)}\log \hat{y}^{(i)} + (1-y^{(i)}) \log (1 - \hat{y}^{(i)})\Big] \]
+$$L(\mathbf{w}, b) = -\frac{1}{N} \sum_{i=1}^{N} \Big[y^{(i)}\log \hat{y}^{(i)} + (1-y^{(i)}) \log (1 - \hat{y}^{(i)})\Big]$$
 
 The goal is to minimize this loss function through the training process, refining the model's weights and bias toward better accuracy.
 
 ### Gradient Calculation
 Optimization is performed via stochastic gradient descent (SGD), where gradients of the loss function with respect to model parameters are computed to update the parameters:
 
-\[ \frac{\partial C}{\partial w_1} = (\hat{y}^{(i)} - y^{(i)}) x^{(i)} \]
+$$\frac{\partial C}{\partial w_1} = (\hat{y}^{(i)} - y^{(i)}) x^{(i)}$$
 
-\[ \frac{\partial C}{\partial b} = (\hat{y}^{(i)} - y^{(i)}) \]
+$$\frac{\partial C}{\partial b} = (\hat{y}^{(i)} - y^{(i)})$$
 
 These gradients help in nudging the weights and bias of the neuron in the direction that reduces the loss, gradually improving model performance on the training data.
 
