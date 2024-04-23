@@ -1,6 +1,6 @@
 # Single Neuron Logistic Regression
 
-![image]()
+![image](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/blob/master/Images/logistic.jpg)
 
 
 
@@ -11,7 +11,7 @@ The Single Neuron Model
 ---
 
 <p align="center">
-    <img src="general_single_neuron.png" width="500">
+    <img src="https://github.com/Naiwen1997/IDNE-577-Machine-Learning/blob/master/Images/general_single_neuron.png" width="500">
 </p>
 
 ---
