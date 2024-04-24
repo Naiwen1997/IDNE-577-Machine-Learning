@@ -20,15 +20,15 @@ where $w_0$ is the bias and $=w_1=$ to $=w_n=$ are the weight coefficients.
 ### Optimization via Gradient Descent
 The model parameters are optimized by minimizing the residual sum of squares (RSS) cost function:
 
-$J(w) = \frac{1}{2n} \sum_{i=1}^{n} (y_{pred}[i] - y[i])^{2}$
+$$J(w) = \frac{1}{2n} \sum_{i=1}^{n} (y_{pred}[i] - y[i])^{2}$$
 
 The gradients of the cost function with respect to the weights are calculated as:
 
-$\frac{\partial J}{\partial w} = \frac{1}{n} X^{T} (y_{pred} - y)$
+$$\frac{\partial J}{\partial w} = \frac{1}{n} X^{T} (y_{pred} - y)$$
 
 Updates to the model parameters are made using the gradient descent rule:
 
-$w = w - \alpha \frac{\partial J}{\partial w}$
+$$w = w - \alpha \frac{\partial J}{\partial w}$$
 
 where $\alpha$ is the learning rate.
 
