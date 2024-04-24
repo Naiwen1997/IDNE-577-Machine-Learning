@@ -11,11 +11,11 @@ Linear regression is employed to predict a continuous variable using a linear fu
 *Image Source: [Understanding Artificial Neural Network With Linear Regression, AIM](https://analyticsindiamag.com/ann-with-linear-regression/)*
 
 ### Mathematical Formulation
-The linear model predicts the target variable \( y \) as a linear combination of the input features $\( x_1, x_2, ..., x_n \)$:
+The linear model predicts the target variable y  as a linear combination of the input features $\( x_1, x_2, ..., x_n \)$:
 
 $y = w_0 + w_1x_1 + w_2x_2 + ... + w_nx_n$
 
-where $\( w_0 \)$ is the bias and $\( w_1 \)$ to $\( w_n \)$ are the weight coefficients.
+where $w_0$ is the bias and $=w_1=$ to $=w_n=$ are the weight coefficients.
 
 ### Optimization via Gradient Descent
 The model parameters are optimized by minimizing the residual sum of squares (RSS) cost function:
@@ -30,7 +30,7 @@ Updates to the model parameters are made using the gradient descent rule:
 
 $w = w - \alpha \frac{\partial J}{\partial w}$
 
-where $\( \alpha \)$ is the learning rate.
+where $\alpha$ is the learning rate.
 
 ## Getting Started
 Instructions for setting up, running the model, and viewing results are provided in the project repository. These include how to load the dataset, execute the model training, and evaluate the model's performance.
