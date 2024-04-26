@@ -1,4 +1,4 @@
-# Single Neuron Linear Regression for Predicting Concrete Strength
+# Linear Regression: Single Neuron Model
 
 ![Linear Regression Model](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/blob/master/Images/linear_regression.jpg)
 
