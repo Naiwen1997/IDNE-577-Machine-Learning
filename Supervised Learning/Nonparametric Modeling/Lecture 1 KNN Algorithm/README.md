@@ -16,17 +16,17 @@ The K-Nearest Neighbors algorithm (KNN) is a simple, yet powerful machine learni
    - Scale the features to ensure they are on the same scale which is crucial for distance calculation.
 
 2. **Choose the Value of K**
-   - Select the number of neighbors (`k`). A smaller `k` makes the model sensitive to noise, whereas a larger `k` makes it computationally expensive and may include features that are irrelevant.
+   - Select the number of neighbors k. A smaller k makes the model sensitive to noise, whereas a larger k makes it computationally expensive and may include features that are irrelevant.
 
 3. **Calculate Distances**
    - Compute the distance between the query instance and all the training samples using a suitable distance metric.
 
 4. **Find K-Nearest Neighbors**
-   - Identify the `k` training samples closest to the query instance based on the computed distances.
+   - Identify the k training samples closest to the query instance based on the computed distances.
 
 5. **Decision Rule**
-   - **Classification**: Determine the output class by majority vote among the `k` neighbors.
-   - **Regression**: Predict the output by averaging the values of the `k` neighbors.
+   - **Classification**: Determine the output class by majority vote among the k neighbors.
+   - **Regression**: Predict the output by averaging the values of the k neighbors.
 
 6. **Evaluate the Model**
    - Assess the model’s performance using appropriate metrics such as accuracy for classification or mean squared error for regression.
