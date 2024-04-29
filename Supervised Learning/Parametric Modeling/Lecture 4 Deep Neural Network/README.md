@@ -1,5 +1,7 @@
 # Deep Neural Network
 
+![image](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/blob/master/Images/MLP.png)
+
 ## Overview
 This repository contains two main tasks showcasing the implementation of a Deep Neural Network. Neural networks were a major area of research in both neuroscience and computer science until 1969, when, according to computer science lore, they were killed off by the MIT mathematicians Marvin Minsky and Seymour Papert, who a year later would become co-directors of the new MIT Artificial Intelligence Laboratory.
 
@@ -24,12 +26,10 @@ To train the network, a loss function \( L \) quantifies the error between the p
 Backpropagation helps optimize the weights and biases by computing gradients:
 
 1. **Gradient Calculation**: For each weight and bias, compute the gradient of the loss function using the chain rule.
-2. **Parameter Update**: Adjust the weights and biases by a small step $\alpha$ in the direction that minimally decreases the loss,$w_{i}^{j,k} \leftarrow w_{i}^{j,k} - \alpha \frac{\partial L}{\partial w_{i}^{j,k}}$.
+2. **Parameter Update**: Adjust the weights and biases by a small step $\alpha$ in the direction that minimally decreases the loss, w = w - η * ∂L/∂w.
 
 ### Conclusion
 By iteratively updating its parameters through backpropagation, an MLP learns to reduce the error between its predicted outputs and the true data. The architecture's depth and the choice of activation function can significantly influence its learning capacity and performance on various tasks.
-
-
 
 ## Tasks
 1. **Implementing MLP from Scratch**: Learn how to build a multilayer feedforward neural network from the ground up using only basic libraries like NumPy. Dive into the mathematical fundamentals and understand the workings of neural networks in detail.
