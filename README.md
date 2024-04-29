@@ -21,10 +21,9 @@ The topics in this course primarily focus on 2 categories:
 - **Supervised Learning**:
     - Parametric Modeling
         - [Perceptron](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/tree/master/Supervised%20Learning/Parametric%20Modeling/Lecture%201%20Perceptron)
-        - [Gradient Descent](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/tree/master/Supervised%20Learning/Parametric%20Modeling/Lecture%202%20Gradient%20Descent)
         - [Single Neuron Linear Regression](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/tree/master/Supervised%20Learning/Parametric%20Modeling/Lecture%203%20Single%20Neuron%20Linear%20Regression)
-        - [Logistic Regression](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/tree/master/Supervised%20Learning/Parametric%20Modeling/Lecture%204%20Logistic%20Regression)
-        - [Deep Neural Network](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/tree/master/Supervised%20Learning/Parametric%20Modeling/Lecture%205%20Deep%20Neural%20Network)
+        - [Single Neuron Logistic Regression](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/tree/master/Supervised%20Learning/Parametric%20Modeling/Lecture%204%20Logistic%20Regression)
+        - [Deep Neural Network](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/tree/master/Supervised%20Learning/Parametric%20Modeling/Lecture%203%20Single%20Neuron%20Logistic%20Regression)
     - Nonparametric Modeling
         - [KNN Algorithm](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/tree/master/Supervised%20Learning/Nonparametric%20Modeling/Lecture%201%20KNN%20Algorithm)
         - [Decision and Regression Tree](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/tree/master/Supervised%20Learning/Nonparametric%20Modeling/Lecture%202%20Decision%20and%20Regression%20Tree)
