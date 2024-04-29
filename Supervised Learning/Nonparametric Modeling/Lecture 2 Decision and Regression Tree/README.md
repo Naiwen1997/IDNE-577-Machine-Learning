@@ -6,7 +6,7 @@ A Decision Tree is a versatile supervised learning algorithm used for both class
 
 The [decision tree algorithm](https://scikit-learn.org/stable/modules/tree.html) involves splitting data into subsets based on feature values, continuously partitioning until a stopping criterion is met. It uses a measure known as information gain to determine which feature to split on at each step, seeking to maximize the predictability and minimize entropy.
 
-### How It Works
+## How It Works
 
 1. **Start at the root node**: Include all samples.
 2. **Feature selection**: Choose the feature that provides the highest information gain.
@@ -14,31 +14,53 @@ The [decision tree algorithm](https://scikit-learn.org/stable/modules/tree.html)
 4. **Recursion**: Repeat the process for each child until a leaf node is reached.
 5. **Stopping criteria**: Stop when maximum depth is reached or minimum data at a node is too small.
 
-### Tree Structure
+## Tree Structure
 
 - **Internal nodes**: Each represents a decision rule on a feature.
 - **Branches**: Correspond to the outcome of the test.
 - **Leaf nodes**: Represent the prediction outcome (a class label or a regression value).
 
-### Mathematical Formulation
+## Mathematical Formulation
 
-The decision-making at each node is driven by the criterion of maximizing the information gain, computed as:
+### Decision Tree Algorithm - Gini Impurity and Entropy
+
+Decision Trees often use criteria like Gini impurity and entropy to determine the best points to split the data. These measures help assess the quality of a potential split, with the goal of maximizing the homogeneity of the resulting subsets.
+
+### Gini Impurity
+
+Gini impurity measures the impurity of a dataset; it's a metric that quantifies how often a randomly chosen element from the set would be incorrectly labeled if it was randomly labeled according to the distribution of labels in the subset. The Gini Impurity of a dataset can be calculated using the following equation:
 
 $$
-\text{Gain}(D, f_i) = \text{Entropy}(D) - \sum_{j=1}^{k} \frac{|D_j|}{|D|} \times \text{Entropy}(D_j)
+\text{Gini}(D) = 1 - \sum_{i=1}^k p_i^2
 $$
 
 Where:
-- \(D\) is the dataset at the node,
-- \(f_i\) is a feature,
-- \(D_j\) is the subset of \(D\) for each value \(v_j\) of \(f_i\),
-- \(\text{Entropy}(D)\) is given by:
-  
-  $$
-  \text{Entropy}(D) = - \sum_{i=1}^{c} p_i \log_2(p_i)
-  $$
+- D is the dataset,
+- $p_i$ is the probability of an object being classified to a particular class.
 
-  \(p_i\) is the proportion of class \(i\) samples at node \(D\).
+A Gini impurity of 0 indicates perfect homogeneity, where all elements belong to a single class.
+
+## Entropy
+
+Entropy, a concept borrowed from information theory, measures the level of uncertainty or impurity in a group of examples. The entropy of a dataset is defined as:
+
+$$
+\text{Entropy}(D) = -\sum_{i=1}^k p_i \log_2 p_i
+$$
+
+Where:
+- D is the dataset,
+- $p_i$ is the proportion of the elements that belong to class i in the dataset.
+
+Entropy will be zero when all cases in the node fall into a single target category, indicating no uncertainty or impurity.
+
+### Choosing Between Gini Impurity and Entropy
+
+Both Gini impurity and entropy are used to compute the homogeneity of the labels in the dataset. While they are very similar, they differ slightly in how they penalize changes in probability:
+- Entropy tends to be more computationally intensive because it involves logarithmic calculations.
+- Gini impurity is generally faster to compute, so it is the default choice in many implementations of decision trees, like Scikit-learn's `DecisionTreeClassifier`.
+
+Understanding these metrics is crucial for tuning decision trees and understanding their decision-making process.
 
 ## Advantages and Disadvantages
 
