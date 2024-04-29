@@ -11,21 +11,21 @@ The technique then enjoyed a resurgence in the 1980s, fell into eclipse again in
 
 ### Forward Propagation
 Each neuron in a layer receives input from the previous layer, which it sums into a linear combination followed by a non-linear activation:
-   - **Linear Combination:** $$ z = w^T x + b $$
-   - **Activation:** $$ a = f(z) $$
+   - **Linear Combination:** $z = w^T x + b$
+   - **Activation:** $a = f(z)$
 
-Where $$ w $$, $$ x $$, and $$ b $$ represent weights, input vectors, and bias, respectively, and $$ f $$ denotes a non-linear activation function like sigmoid or ReLU.
+Where $w$, $x$, and $b$ represent weights, input vectors, and bias, respectively, and $f$ denotes a non-linear activation function like sigmoid or ReLU.
 
 ### Backpropagation
 
 To learn model parameters, MLPs use backpropagation, which involves:
    1. **Loss Calculation:** Using a function like Mean Squared Error:
-      $$ L = \frac{1}{2} \sum (y_{pred} - y_{true})^2 $$
+      $L = \frac{1}{2} \sum (y_{pred} - y_{true})^2$
    2. **Gradient Calculation:** The gradient of the loss function with respect to the weights is computed using the chain rule:
-      $$ \frac{\partial L}{\partial w} = \frac{\partial L}{\partial a} \cdot \frac{\partial a}{\partial z} \cdot \frac{\partial z}{\partial w} $$
+      $\frac{\partial L}{\partial w} = \frac{\partial L}{\partial a} \cdot \frac{\partial a}{\partial z} \cdot \frac{\partial z}{\partial w}$
    3. **Weight Update:** Weights are updated in the direction that minimizes the loss:
-      $$ w = w - \eta \cdot \frac{\partial L}{\partial w} $$
-   Where $$ \eta $$ is the learning rate.
+      $w = w - \eta \cdot \frac{\partial L}{\partial w}$
+   Where $\eta$ is the learning rate.
 
 
 ## Tasks
