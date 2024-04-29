@@ -14,7 +14,7 @@ Ensemble methods help improve machine learning results by combining several mode
 
 ## Random Forest
 
-Random Forest is an ensemble learning method that constructs a multitude of decision trees at training time and outputs the class that is the mode of the classes (classification) or mean prediction (regression) of the individual trees. Random Forests perform a type of ensemble learning called bagging, which involves training each tree on a different sample of the data.
+[Random Forest]() is an ensemble learning method that constructs a multitude of decision trees at training time and outputs the class that is the mode of the classes (classification) or mean prediction (regression) of the individual trees. Random Forests perform a type of ensemble learning called bagging, which involves training each tree on a different sample of the data.
 
 ### Random Forest Algorithm
 
@@ -28,7 +28,7 @@ In Random Forest, each tree is trained on a subset of data and features, which i
 
 ## Bagging
 
-Bagging, or Bootstrap Aggregating, is an ensemble technique primarily used to reduce variance in a noisy dataset. Bagging involves creating multiple copies of the original training dataset using random sampling with replacement, training a model on each copy, and then averaging the outputs.
+[Bagging](), or Bootstrap Aggregating, is an ensemble technique primarily used to reduce variance in a noisy dataset. Bagging involves creating multiple copies of the original training dataset using random sampling with replacement, training a model on each copy, and then averaging the outputs.
 
 ### Bagging Algorithm
 
@@ -44,9 +44,7 @@ The typical steps in a bagging algorithm include:
 By combining multiple models, ensemble methods, such as Random Forest and Bagging, are able to achieve higher accuracy than any of the individual models contributing to the ensemble. This repository aims to explore these methods in depth, providing both theoretical explanations and practical implementations.
 
 ## Application
-- Customer Relationship Management
-- Credit Scoring in Financial Institution
-- Fraud Detection in Insurance
+- 
 
 ## Dataset
 We use the [Wine dataset](https://archive.ics.uci.edu/dataset/109/wine) which  are the results of a chemical analysis of wines grown in the same region in Italy but derived from three different cultivars. The analysis determined the quantities of 13 constituents found in each of the three types of wines.
