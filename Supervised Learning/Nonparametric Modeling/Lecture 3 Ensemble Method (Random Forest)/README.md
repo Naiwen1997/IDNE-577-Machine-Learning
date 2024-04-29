@@ -1,9 +1,6 @@
 # Ensemble Method
 
-<p align="center">
-  <img src="https://github.com/Naiwen1997/IDNE-577-Machine-Learning/blob/master/Images/random_forest.jpg" alt="Ensemble Method" width="800" height="600">
-</p>
-
+![rf](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/blob/master/Images/random_forest.jpg)
 
 ## Overview
 In statistics and machine learning, [ensemble methods](https://en.wikipedia.org/wiki/Ensemble_learning) use multiple learning algorithms to obtain better predictive performance than could be obtained from any of the constituent learning algorithms alone. Unlike a statistical ensemble in statistical mechanics, which is usually infinite, a machine learning ensemble consists of only a concrete finite set of alternative models, but typically allows for much more flexible structure to exist among those alternatives. 
@@ -14,7 +11,7 @@ Ensemble methods help improve machine learning results by combining several mode
 
 ## Random Forest
 
-[Random Forest]() is an ensemble learning method that constructs a multitude of decision trees at training time and outputs the class that is the mode of the classes (classification) or mean prediction (regression) of the individual trees. Random Forests perform a type of ensemble learning called bagging, which involves training each tree on a different sample of the data.
+[Random Forest](https://en.wikipedia.org/wiki/Random_forest) is an ensemble learning method that constructs a multitude of decision trees at training time and outputs the class that is the mode of the classes (classification) or mean prediction (regression) of the individual trees. Random Forests perform a type of ensemble learning called bagging, which involves training each tree on a different sample of the data.
 
 ### Random Forest Algorithm
 
@@ -28,7 +25,7 @@ In Random Forest, each tree is trained on a subset of data and features, which i
 
 ## Bagging
 
-[Bagging](), or Bootstrap Aggregating, is an ensemble technique primarily used to reduce variance in a noisy dataset. Bagging involves creating multiple copies of the original training dataset using random sampling with replacement, training a model on each copy, and then averaging the outputs.
+[Bagging](https://corporatefinanceinstitute.com/resources/data-science/bagging-bootstrap-aggregation/#:~:text=Bagging%20is%20used%20with%20decision,eliminates%20the%20challenge%20of%20overfitting.&text=Bagging%20in%20ensemble%20machine%20learning,to%20select%20the%20best%20prediction.), or Bootstrap Aggregating, is an ensemble technique primarily used to reduce variance in a noisy dataset. Bagging involves creating multiple copies of the original training dataset using random sampling with replacement, training a model on each copy, and then averaging the outputs.
 
 ### Bagging Algorithm
 
@@ -44,7 +41,9 @@ The typical steps in a bagging algorithm include:
 By combining multiple models, ensemble methods, such as Random Forest and Bagging, are able to achieve higher accuracy than any of the individual models contributing to the ensemble. This repository aims to explore these methods in depth, providing both theoretical explanations and practical implementations.
 
 ## Application
-- 
+- Object Recognition and Computer Vision
+- Internet Search Engines
+- Customer Churn Prediction
 
 ## Dataset
 We use the [Wine dataset](https://archive.ics.uci.edu/dataset/109/wine) which  are the results of a chemical analysis of wines grown in the same region in Italy but derived from three different cultivars. The analysis determined the quantities of 13 constituents found in each of the three types of wines.
