@@ -60,9 +60,9 @@ $$
 Where `p` is the order parameter: `p=1` yields Manhattan distance, and `p=2` yields Euclidean distance.
 
 ## Application
-- Real Estate for property price prediction
-- Healthcare for Medical Diagnosis
-- Agriculture for Crop Yield Prediction
+- Medical Diagnosis
+- Movie Recommendation Systems
+- Stock Market Forecasting
 
 ## Dataset
 We use the [Rice (Cammeo and Osmancik)](https://archive.ics.uci.edu/dataset/545/rice+cammeo+and+osmancik) dataset, which includes a total of 3810 rice grain's images were taken for the two species, processed and feature inferences were made. 7 morphological features were obtained for each grain of rice.
