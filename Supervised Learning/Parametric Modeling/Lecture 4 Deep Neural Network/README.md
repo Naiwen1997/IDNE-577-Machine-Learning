@@ -3,7 +3,7 @@
 ![image](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/blob/master/Images/MLP.png)
 
 ## Overview
-This repository contains two main tasks showcasing the implementation of a Deep Neural Network. Neural networks were a major area of research in both neuroscience and computer science until 1969, when, according to computer science lore, they were killed off by the MIT mathematicians Marvin Minsky and Seymour Papert, who a year later would become co-directors of the new MIT Artificial Intelligence Laboratory.
+This repository contains two main tasks showcasing the implementation of a [Deep Neural Network](https://www.tutorialspoint.com/python_deep_learning/python_deep_learning_deep_neural_networks.htm). Neural networks were a major area of research in both neuroscience and computer science until 1969, when, according to computer science lore, they were killed off by the MIT mathematicians Marvin Minsky and Seymour Papert, who a year later would become co-directors of the new MIT Artificial Intelligence Laboratory.
 
 The technique then enjoyed a resurgence in the 1980s, fell into eclipse again in the first decade of the new century, and has returned like gangbusters in the second, fueled largely by the increased processing power of graphics chips.
 
@@ -29,14 +29,14 @@ To learn model parameters, MLPs use backpropagation, which involves:
 
 
 ## Tasks
-1. **Implementing **: Learn how to build a multilayer feedforward neural network from the ground up using only basic libraries like NumPy. Dive into the mathematical fundamentals and understand the workings of neural networks in detail.
+1. **Implementing by Basic Class**: Discover how to construct a multilayer feedforward neural network from scratch using fundamental libraries like NumPy. Explore the essential mathematical concepts and delve deep into the detailed mechanics of how neural networks function.
    
-2. **MLP with TensorFlow and Keras**: Utilize high-level frameworks like TensorFlow and Keras to efficiently implement a multilayer perceptron. This task focuses on leveraging modern deep learning libraries to simplify network implementation and training.
+2. **Implementing by TensorFlow**: "Employ advanced frameworks such as TensorFlow to streamline the implementation and training of a multilayer perceptron. This approach emphasizes using cutting-edge deep learning libraries to simplify the development of neural networks.
 
 ## Applications
-- 
-- 
-- 
+- Image Recognition and Processing
+- [Natural Language Processing](https://www.ibm.com/topics/natural-language-processing)
+- Speech Recognition
 
 ## Dataset
 We use the [Fashion MNIST](https://www.tensorflow.org/datasets/catalog/fashion_mnist) dataset. Fashion-MNIST is a dataset of Zalando's article images consisting of a training set of 60,000 examples and a test set of 10,000 examples. Each example is a 28x28 grayscale image, associated with a label from 10 classes.
