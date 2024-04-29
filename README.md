@@ -21,13 +21,13 @@ The topics in this course primarily focus on 2 categories:
 - **Supervised Learning**:
     - Parametric Modeling
         - [Perceptron](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/tree/master/Supervised%20Learning/Parametric%20Modeling/Lecture%201%20Perceptron)
-        - [Single Neuron Linear Regression](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/tree/master/Supervised%20Learning/Parametric%20Modeling/Lecture%203%20Single%20Neuron%20Linear%20Regression)
-        - [Single Neuron Logistic Regression](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/tree/master/Supervised%20Learning/Parametric%20Modeling/Lecture%204%20Logistic%20Regression)
+        - [Single Neuron Linear Regression](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/tree/master/Supervised%20Learning/Parametric%20Modeling/Lecture%202%20Single%20Neuron%20Linear%20Regression)
+        - [Single Neuron Logistic Regression](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/tree/master/Supervised%20Learning/Parametric%20Modeling/Lecture%203%20Single%20Neuron%20Logistic%20Regression)
         - [Deep Neural Network](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/tree/master/Supervised%20Learning/Parametric%20Modeling/Lecture%203%20Single%20Neuron%20Logistic%20Regression)
     - Nonparametric Modeling
         - [KNN Algorithm](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/tree/master/Supervised%20Learning/Nonparametric%20Modeling/Lecture%201%20KNN%20Algorithm)
         - [Decision and Regression Tree](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/tree/master/Supervised%20Learning/Nonparametric%20Modeling/Lecture%202%20Decision%20and%20Regression%20Tree)
-        - [Ensemble Method](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/tree/master/Supervised%20Learning/Nonparametric%20Modeling/Lecture%203%20Ensemble%20Method)
+        - [Ensemble Method](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/tree/master/Supervised%20Learning/Nonparametric%20Modeling/Lecture%203%20Ensemble%20Method%20(Random%20Forest))
 - **Unsupervised Learning**:
     - [K-Means Clustering](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/tree/master/Unsupervised%20Learning/Lecture%201%20K-Means%20Clustering)
     - [Principle Component Analysis](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/tree/master/Unsupervised%20Learning/Lecture%202%20Principle%20Component%20Analysis)
