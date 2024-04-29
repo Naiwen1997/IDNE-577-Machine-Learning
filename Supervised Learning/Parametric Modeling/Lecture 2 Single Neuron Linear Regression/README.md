@@ -21,10 +21,10 @@ Gradient Descent is an optimization algorithm for finding a local minimum of a d
 2. $w \leftarrow w - \alpha \frac{\partial C(w_1, b; \mathbf{x}^{(i)}, y^{(i)})}{\partial w_1}$
 3. $b \leftarrow b - \alpha \frac{\partial C(w_1, b; \mathbf{x}^{(i)}, y^{(i)})}{\partial b}$
 
-**stochastic gradient descent** is the most common way work around for this problem, which is to update $w_1$ and $b$ by calculating the gradient with respect to one entry of data at a time. 
+Stochastic gradient descent is the most common way work around for this problem, which is to update $w_1$ and $b$ by calculating the gradient with respect to one entry of data at a time. 
 
 <p align="center">
-    <img src="General_ML_Model.png" width="500">
+    <img src="https://github.com/Naiwen1997/IDNE-577-Machine-Learning/blob/master/Images/Gradient_Descent.png" width="500">
 </p>
 
 ## Linear Regression Model
