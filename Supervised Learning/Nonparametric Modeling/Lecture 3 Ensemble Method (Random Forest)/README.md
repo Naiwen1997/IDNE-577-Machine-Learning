@@ -16,8 +16,7 @@ Random Forest is an ensemble learning method that constructs a multitude of deci
 ### Mathematical Formulation of Random Forest
 
 In Random Forest, each tree is trained on a subset of data and features, which is described by the following formula:
-- Given a training set $X = x_1, ..., x_n$ with responses $Y = y_1, ..., y_n$, a number of trees in the forest `T`, and the number of features sampled for each split `m`, Random Forest algorithm follows these steps:
-For every tree from 1 to T:
+- Given a training set $X = x_1, ..., x_n$ with responses $Y = y_1, ..., y_n$, a number of trees in the forest `T`, and the number of features sampled for each split `m`, Random Forest algorithm follows every tree from 1 to T:
     1. Sample `n` examples randomly with replacement from X, Y.
     2. Train a decision tree on this sample (typically with a maximum allowed depth).
     3. At each node:
@@ -26,13 +25,13 @@ For every tree from 1 to T:
 
 ### Random Forest Algorithm
 
-$$
+$
 \text{For } i = 1 \text{ to } T:
   \text{ For each tree } t_i:
     \text{Sample } n \text{ examples from } X, Y \text{ with replacement}
     \text{Build a tree on the sampled data using the top } m \text{ features}
 \text{Output the majority vote or average prediction from all } t_i
-$$
+$
 
 ## Bagging
 
@@ -47,12 +46,12 @@ The typical steps in a bagging algorithm include:
   3. Repeat the above two steps for `k` times creating `k` models.
   4. Aggregate the results of these models into a single result.
 
-$$
+$
 \text{For } i = 1 \text{ to } k:
   \text{ Sample } n \text{ instances from original dataset with replacement }
   \text{ Train model } M_i \text{ on the sample }
 \text{Output the aggregated result from all } M_i
-$$
+$
 
 ## Conclusion
 
