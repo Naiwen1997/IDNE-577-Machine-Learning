@@ -1,5 +1,10 @@
 # Decision Tree Algorithm Overview
 
+![Decision_Tree]((https://github.com/Naiwen1997/IDNE-577-Machine-Learning/blob/master/Images/KNN.png)
+
+## Dataset
+We use the [Wine dataset](https://archive.ics.uci.edu/dataset/109/wine) which  are the results of a chemical analysis of wines grown in the same region in Italy but derived from three different cultivars. The analysis determined the quantities of 13 constituents found in each of the three types of wines.
+
 A Decision Tree is a versatile supervised learning algorithm used for both classification and regression tasks. It constructs a tree-like model of decisions and their possible consequences, including chances of event outcomes, resource costs, and utility.
 
 ## Concept
@@ -28,7 +33,7 @@ Decision Trees often use criteria like Gini impurity and entropy to determine th
 
 ### Gini Impurity
 
-Gini impurity measures the impurity of a dataset; it's a metric that quantifies how often a randomly chosen element from the set would be incorrectly labeled if it was randomly labeled according to the distribution of labels in the subset. The Gini Impurity of a dataset can be calculated using the following equation:
+[Gini](https://en.wikipedia.org/wiki/Gini_coefficient) impurity measures the impurity of a dataset; it's a metric that quantifies how often a randomly chosen element from the set would be incorrectly labeled if it was randomly labeled according to the distribution of labels in the subset. The Gini Impurity of a dataset can be calculated using the following equation:
 
 $$
 \text{Gini}(D) = 1 - \sum_{i=1}^k p_i^2
@@ -42,7 +47,7 @@ A Gini impurity of 0 indicates perfect homogeneity, where all elements belong to
 
 ## Entropy
 
-Entropy, a concept borrowed from information theory, measures the level of uncertainty or impurity in a group of examples. The entropy of a dataset is defined as:
+[Entropy](https://en.wikipedia.org/wiki/Entropy), a concept borrowed from information theory, measures the level of uncertainty or impurity in a group of examples. The entropy of a dataset is defined as:
 
 $$
 \text{Entropy}(D) = -\sum_{i=1}^k p_i \log_2 p_i

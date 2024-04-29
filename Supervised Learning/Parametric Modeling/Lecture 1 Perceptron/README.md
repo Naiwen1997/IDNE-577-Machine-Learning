@@ -1,6 +1,6 @@
 # Perceptron - A Binary Linear Classifier
 
-![image](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/blob/master/Images/perceptron.jpg)
+![Perceptron](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/blob/master/Images/perceptron.jpg)
 
 Welcome to the Perceptron repository! This project is dedicated to the implementation and exploration of the Perceptron, one of the simplest types of artificial neural networks and a foundational element in the field of machine learning.
 

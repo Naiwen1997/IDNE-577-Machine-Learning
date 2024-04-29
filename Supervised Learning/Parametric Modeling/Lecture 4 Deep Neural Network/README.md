@@ -1,6 +1,6 @@
 # Deep Neural Network
 
-![image](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/blob/master/Images/MLP.png)
+![Deep_Neural_Network](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/blob/master/Images/MLP.png)
 
 ## Overview
 This repository contains two main tasks showcasing the implementation of a [Deep Neural Network](https://www.tutorialspoint.com/python_deep_learning/python_deep_learning_deep_neural_networks.htm). Neural networks were a major area of research in both neuroscience and computer science until 1969, when, according to computer science lore, they were killed off by the MIT mathematicians Marvin Minsky and Seymour Papert, who a year later would become co-directors of the new MIT Artificial Intelligence Laboratory.

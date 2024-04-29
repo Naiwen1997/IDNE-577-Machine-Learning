@@ -1,6 +1,6 @@
 # Logistic Regression: Single Neuron Model
 
-![image](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/blob/master/Images/logistic.jpg)
+![Logistic Regression Model](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/blob/master/Images/logistic.jpg)
 
 ## Overview
 [Logistic Regression](https://en.wikipedia.org/wiki/Logistic_regression#:~:text=Logistic%20regression%20is%20a%20supervised,based%20on%20patient%20test%20results.) is a fundamental statistical and machine learning technique used for binary classification tasks. Unlike linear regression, logistic regression outputs probabilities, thanks to the logistic (sigmoid) function, which maps predictions to a probability curve. This repository provides a custom implementation of logistic regression modeled as a single neuron in a neural network, often referred to as a logistic neuron.

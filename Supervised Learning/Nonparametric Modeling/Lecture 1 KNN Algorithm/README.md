@@ -1,6 +1,6 @@
 # K-Nearest Neighbors (KNN)
 
-![Linear Regression Model](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/blob/master/Images/KNN.png)
+![KNN](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/blob/master/Images/KNN.png)
 
 ## Overview
 The [k-nearest neighbors (KNN)](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm) algorithm is a non-parametric, supervised learning classifier, which uses proximity to make classifications or predictions about the grouping of an individual data point.
