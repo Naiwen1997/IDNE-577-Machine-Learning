@@ -1,6 +1,6 @@
 # Decision Tree Algorithm Overview
 
-![Decision_Tree]((https://github.com/Naiwen1997/IDNE-577-Machine-Learning/blob/master/Images/KNN.png)
+![Decision_Tree](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/blob/master/Images/decision_tree.jpg)
 
 ## Dataset
 We use the [Wine dataset](https://archive.ics.uci.edu/dataset/109/wine) which  are the results of a chemical analysis of wines grown in the same region in Italy but derived from three different cultivars. The analysis determined the quantities of 13 constituents found in each of the three types of wines.
