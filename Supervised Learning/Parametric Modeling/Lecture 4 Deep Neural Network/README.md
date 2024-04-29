@@ -18,13 +18,13 @@ The forward pass computes the output of each neuron using:
 2. **Activation Function**: $h_i^j = g_i(z_i^j)$, applying a non-linear transformation.
 
 ### Loss Function
-To train the network, a loss function \( L \) quantifies the error between the predicted outputs \( \hat{Y} \) and the actual labels \( Y \). Common choices are Mean Squared Error for regression and Cross-Entropy for classification.
+To train the network, a loss function \( L \) quantifies the error between the predicted outputs $\hat{Y}$ and the actual labels \( Y \). Common choices are Mean Squared Error for regression and Cross-Entropy for classification.
 
 ### Backpropagation
 Backpropagation helps optimize the weights and biases by computing gradients:
 
 1. **Gradient Calculation**: For each weight and bias, compute the gradient of the loss function using the chain rule.
-2. **Parameter Update**: Adjust the weights and biases by a small step \( \alpha \) in the direction that minimally decreases the loss, \( w_{i}^{j,k} \leftarrow w_{i}^{j,k} - \alpha \frac{\partial L}{\partial w_{i}^{j,k}} \).
+2. **Parameter Update**: Adjust the weights and biases by a small step $\alpha$ in the direction that minimally decreases the loss,$w_{i}^{j,k} \leftarrow w_{i}^{j,k} - \alpha \frac{\partial L}{\partial w_{i}^{j,k}}$.
 
 ### Conclusion
 By iteratively updating its parameters through backpropagation, an MLP learns to reduce the error between its predicted outputs and the true data. The architecture's depth and the choice of activation function can significantly influence its learning capacity and performance on various tasks.
