@@ -6,6 +6,11 @@
 This project demonstrates the implementation of a single neuron linear regression model to predict the compressive strength of concrete, measured in MPa (Mega Pascals), based on various concrete composition features like cement, ash, water, and others. The implementation is crafted from scratch, showcasing the fundamental concepts of linear regression in a neural network-like architecture using Python.
 
 ## Gradient Descent
+
+<p align="center">
+    <img src="https://github.com/Naiwen1997/IDNE-577-Machine-Learning/blob/master/Images/Gradient_Descent.png" width="500">
+</p>
+
 Gradient Descent is an optimization algorithm for finding a local minimum of a differentiable function. Gradient descent in machine learning is simply used to find the values of a function's parameters (coefficients) that minimize a cost function as far as possible.
 
 ### Batch Gradient Descent Algorithm
@@ -22,10 +27,6 @@ Gradient Descent is an optimization algorithm for finding a local minimum of a d
 3. $b \leftarrow b - \alpha \frac{\partial C(w_1, b; \mathbf{x}^{(i)}, y^{(i)})}{\partial b}$
 
 Stochastic gradient descent is the most common way work around for this problem, which is to update $w_1$ and $b$ by calculating the gradient with respect to one entry of data at a time. 
-
-<p align="center">
-    <img src="https://github.com/Naiwen1997/IDNE-577-Machine-Learning/blob/master/Images/Gradient_Descent.png" width="500">
-</p>
 
 ## Linear Regression Model
 [Linear regression](https://en.wikipedia.org/wiki/Linear_regression) is employed to predict a continuous variable using a linear function defined by weight parameters. In linear regression, the relationships are modeled using linear predictor functions whose unknown model parameters are estimated from the data. Such models are called linear models. Most commonly, the conditional mean of the response given the values of the explanatory variables (or predictors) is assumed to be an [affine function](https://en.wikipedia.org/wiki/Affine_transformation) of those values; less commonly, the conditional median or some other quantile is used. Like all forms of regression analysis, linear regression focuses on the conditional probability distribution of the response given the values of the predictors, rather than on the joint probability distribution of all of these variables, which is the domain of multivariate analysis.
