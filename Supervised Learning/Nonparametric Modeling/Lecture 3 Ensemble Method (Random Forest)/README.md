@@ -1,16 +1,62 @@
+# Ensemble Method
 
+![Ensemble Method](https://github.com/Naiwen1997/IDNE-577-Machine-Learning/blob/master/Images/random_forest.png)
 
+## Overview
+In statistics and machine learning, [ensemble methods](https://en.wikipedia.org/wiki/Ensemble_learning) use multiple learning algorithms to obtain better predictive performance than could be obtained from any of the constituent learning algorithms alone. Unlike a statistical ensemble in statistical mechanics, which is usually infinite, a machine learning ensemble consists of only a concrete finite set of alternative models, but typically allows for much more flexible structure to exist among those alternatives. 
 
+Ensemble methods help improve machine learning results by combining several models. This approach helps in reducing variance, bias, or improving predictions. Ensemble methods can be broadly divided into two categories:
+- **Bagging**: Helps reduce variance and helps avoid overfitting.
+- **Boosting**: Reduces both bias and variance by building a series of models that build on each other to improve predictive performance.
 
+## Random Forest
 
+Random Forest is an ensemble learning method that constructs a multitude of decision trees at training time and outputs the class that is the mode of the classes (classification) or mean prediction (regression) of the individual trees. Random Forests perform a type of ensemble learning called bagging, which involves training each tree on a different sample of the data.
 
+### Mathematical Formulation of Random Forest
 
+In Random Forest, each tree is trained on a subset of data and features, which is described by the following formula:
+- Given a training set $X = x_1, ..., x_n$ with responses $Y = y_1, ..., y_n$, a number of trees in the forest `T`, and the number of features sampled for each split `m`, Random Forest algorithm follows these steps:
+For every tree from 1 to T:
+    1. Sample `n` examples randomly with replacement from X, Y.
+    2. Train a decision tree on this sample (typically with a maximum allowed depth).
+    3. At each node:
+        - Randomly sample `m` features from all features.
+        - Split the node using the feature that provides the best split according to the objective function, typically using Gini impurity or entropy in classification.
 
+### Random Forest Algorithm
 
+$$
+\text{For } i = 1 \text{ to } T:
+  \text{ For each tree } t_i:
+    \text{Sample } n \text{ examples from } X, Y \text{ with replacement}
+    \text{Build a tree on the sampled data using the top } m \text{ features}
+\text{Output the majority vote or average prediction from all } t_i
+$$
 
+## Bagging
 
+Bagging, or Bootstrap Aggregating, is an ensemble technique primarily used to reduce variance in a noisy dataset. Bagging involves creating multiple copies of the original training dataset using random sampling with replacement, training a model on each copy, and then averaging the outputs.
 
+### Bagging Algorithm
 
+The typical steps in a bagging algorithm include:
+- Given a dataset with `n` instances:
+  1. Randomly select a sample of `n` instances with replacement.
+  2. Train a model on these samples.
+  3. Repeat the above two steps for `k` times creating `k` models.
+  4. Aggregate the results of these models into a single result.
+
+$$
+\text{For } i = 1 \text{ to } k:
+  \text{ Sample } n \text{ instances from original dataset with replacement }
+  \text{ Train model } M_i \text{ on the sample }
+\text{Output the aggregated result from all } M_i
+$$
+
+## Conclusion
+
+By combining multiple models, ensemble methods, such as Random Forest and Bagging, are able to achieve higher accuracy than any of the individual models contributing to the ensemble. This repository aims to explore these methods in depth, providing both theoretical explanations and practical implementations.
 
 ## Application
 - Customer Relationship Management
