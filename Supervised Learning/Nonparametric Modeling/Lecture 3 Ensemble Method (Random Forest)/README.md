@@ -25,13 +25,11 @@ In Random Forest, each tree is trained on a subset of data and features, which i
 
 ### Random Forest Algorithm
 
-$
-\text{For } i = 1 \text{ to } T:
+$$\text{For } i = 1 \text{ to } T:
   \text{ For each tree } t_i:
     \text{Sample } n \text{ examples from } X, Y \text{ with replacement}
     \text{Build a tree on the sampled data using the top } m \text{ features}
-\text{Output the majority vote or average prediction from all } t_i
-$
+\text{Output the majority vote or average prediction from all } t_i$$
 
 ## Bagging
 
