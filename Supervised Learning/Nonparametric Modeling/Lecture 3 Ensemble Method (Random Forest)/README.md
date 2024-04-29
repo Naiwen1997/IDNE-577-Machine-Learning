@@ -1,7 +1,7 @@
 # Ensemble Method
 
 <p align="center">
-  <img src="https://github.com/Naiwen1997/IDNE-577-Machine-Learning/blob/master/Images/random_forest.png" alt="Ensemble Method" width="600" height="400">
+  <img src="https://github.com/Naiwen1997/IDNE-577-Machine-Learning/blob/master/Images/random_forest.png" alt="Ensemble Method" width="800" height="600">
 </p>
 
 
