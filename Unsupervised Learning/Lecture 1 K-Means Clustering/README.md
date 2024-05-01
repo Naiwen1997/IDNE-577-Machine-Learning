@@ -21,7 +21,7 @@ $$
 \text{WCSS} = \sum_{i=1}^k \sum_{x \in S_i} ||x - \mu_i||^2
 $$
 
-where \( \mu_i \) is the mean of points in \( S_i \).
+where $\mu_i$ is the mean of points in $S_i$.
 
 ## Repository Structure
 
